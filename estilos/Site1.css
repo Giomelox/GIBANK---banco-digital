@@ -1,0 +1,449 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+  
+body{
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    background-color: rgb(85,130,151);
+}
+
+.header{
+    display: flex;
+    width: 100%;
+    height:100px;
+    background-color: rgb(85,130,151);
+    justify-content: end;
+    align-items: center;
+}
+
+.menu{
+    width:45px;
+    margin-right: 870px;
+}
+
+.menu:hover{
+    cursor: pointer;
+    background-color: rgb(222, 81, 54);
+    border-radius: 20%;
+}
+
+.navlist{
+    display: flex;
+    list-style: none;
+    margin-right: 100px;
+}
+
+.navlist a{
+    font-size: 22px;
+    color:rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 20px;
+    margin: 10px;
+}
+
+.entrar{
+    background-color: rgb(138,208,215);
+    border-radius: 20px;
+}
+
+.navlist a:hover{
+    color:rgb(222, 81, 54);
+    background-color: rgb(138,208,215);
+    border-radius: 20px;
+}
+
+.nomebanco{
+    position: absolute;
+    font-size: 75px;
+    margin-top: -850px;
+    margin-left: 100px;
+    height:425px;
+}
+
+.decoracaotitulo img{
+    position: absolute;
+    margin-top: -465px;
+    margin-left: 650px;
+    width:100px;
+}
+
+.spantitulo{
+    color:rgb(222, 81, 54);
+    border-bottom: 3px solid rgb(222, 81, 54);
+}
+
+.nomebanco1{
+    color: rgb(255, 255, 255);
+    border-bottom: 3px solid white;
+}
+
+.paragrafotitulo{
+    position: absolute;
+    color: rgb(255, 255, 255);
+    font-size: 70px;
+    margin-top: -550px;
+    margin-left: 100px;
+}
+
+.spanparagrafo{
+    font-weight: bold;
+}
+
+.abrirconta{
+    position: absolute;
+    padding:10px;
+    margin-top: -250px;
+    margin-left: 100px;
+    background-color: rgba(138, 209, 215, 0.773);
+    border-radius: 20px;
+}
+
+.abrasuaconta{
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+.abrasuaconta:hover{
+    color:rgb(222, 81, 54);
+}
+
+.bodyimagem{
+    width:75vh;
+    margin-top: 5vh;
+    margin-left: 1100px;
+}
+
+.entradasite{
+    margin-bottom: 100px;
+}
+
+/*=================================================*/
+
+.container, .container2 {
+    display: flex;
+    justify-content: space-around;
+    gap:250px;
+    background-color: rgb(222, 81, 54);
+}
+
+.container{
+    padding-top: 100px;
+}
+
+.container2{
+    padding-bottom: 100px;
+}
+
+.titulobandeiras{
+    display: flex;
+    background-color: rgb(222, 81, 54);
+    justify-content: center;
+}
+
+.titulobandeiras1{
+    font-size: 50px;
+    color: rgba(255, 255, 255, 0.902);
+    text-align: center;
+}
+
+.titulobandeirasspan{
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+.bandeira {
+    background-color: rgb(138, 209, 215);
+    border-radius: 90px;
+    border-top: none;
+    margin:-40px;
+    width: 500px;
+    height: 290px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.bandeira .titulo {
+    color:white;
+    border-bottom: 2px solid white;
+    margin-top: 25px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.bandeira .conteudo {
+    display: none;
+    margin-top: 10px;
+    font-size: 16px;
+    text-align: center;
+}
+
+.bandeira.expanded {
+    width: 100vh;
+}
+
+.bandeira.expanded .conteudo {
+    display: block;
+}
+
+.bandeira.expanded .saibamais1{
+    display: none;
+}
+
+.bandeira.expanded .saibamais2{
+    display: none;
+}
+
+.bandeira.expanded .saibamais3{
+    display: none;
+}
+
+.bandeira.expanded .saibamais4{
+    display: none;
+}
+
+.bandeira.expanded .homebroker{
+    display: none;
+}
+
+.bandeira.expanded .cashback{
+    display: none;
+}
+
+.bandeira.expanded .tesouro{
+    display: none;
+}
+
+.bandeira.expanded .globalaccount{
+    display: none;
+}
+
+.bandeira:hover .saibamais1{
+    color: rgb(222, 81, 54);
+    text-decoration: underline;
+}
+
+.bandeira:hover .saibamais2{
+    color: rgb(222, 81, 54);
+    text-decoration: underline;
+}
+
+.bandeira:hover .saibamais3{
+    color: rgb(222, 81, 54);
+    text-decoration: underline;
+}
+
+.bandeira:hover .saibamais4{
+    color: rgb(222, 81, 54);
+    text-decoration: underline;
+}
+
+.homebroker{
+    margin-top: -140px;
+    padding-left: 25px;
+    width:600px;
+}
+
+.saibamais1{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    margin-top: -160px;
+}
+
+.cashback{
+    margin-top: -190px;
+    width:500px;
+}
+
+.saibamais2{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    margin-top: -115px;
+}
+
+.tesouro{
+    margin-top: -170px;
+    margin-left: -5px;
+    width:550px;
+}
+
+.saibamais3{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    margin-top: -200px;
+}
+
+.globalaccount{
+    margin-top: -130px;
+    margin-left: -5px;
+    width:550px;
+}
+
+.saibamais4{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    margin-top: -155px;
+}
+
+.abrirconta1{
+    position: absolute;
+    padding:10px;
+    margin-left: 40vh;
+    margin-top: 15px;
+    background-color: rgb(222, 81, 54);
+    border-radius: 20px;
+}
+
+.abrasuaconta1{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.abrasuaconta1:hover{
+    color:rgb(138, 209, 215);
+}
+
+/*=================================================*/
+
+.pag3 {
+    height:1200px;
+    transition: background-color 0.5s ease;
+    position: relative;
+}
+
+.cartao {
+    width:400px;
+    cursor: pointer;
+}
+
+.conteúdo {
+    display: none;
+    position: absolute;
+    top: 30%;
+    left: 40%;
+    z-index: 10;
+    width: 900px;
+    height:600px;
+    padding: 20px;
+    backdrop-filter: blur(1px);
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.988);
+    transition: transform 0.5s ease;
+}
+
+.paragrafocartoes {
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -1050px;
+    margin-left: 550px;
+}
+
+.descritivo{
+    color: white;
+    font-weight: bold;
+    margin-top:370px;
+    font-size: 20px;
+}
+
+.abrasuaconta2{
+    position: absolute;
+    color: white;
+    text-decoration: none;
+    font-size: 22px;
+    margin-top: -200px;
+    margin-left: 37%;
+    padding:10px;
+}
+
+.abrasuaconta2:hover{
+    color:black;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 30px;
+}
+
+
+.cartoes {
+    padding-top: 100px;
+    margin-left: 100px;
+}
+
+.conteúdo.active {
+    display: block;
+}
+
+.conteúdo p {
+    transition: transform 0.5s ease;
+}
+
+.conteúdo.active p {
+    transform: translateY(-100%);
+}
+
+/*=================================================*/
+
+.pag4{
+    display: flex;
+    height:1600px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:150px;
+    background-color: rgb(222, 81, 54);
+}
+
+.titulopag4{
+    font-weight: bold;
+    font-size: 40px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+.fotoapp{
+    width:1500px;
+}
+
+.abrasuacontapag4{
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+    background-color: rgb(138, 209, 215);
+    border-radius: 20px;
+    padding:10px;
+}
+
+.abrasuacontapag4:hover{
+    text-decoration: underline;
+}
+
+/*=================================================*/
+
+.footer{
+    height: 600px;
+    background-color: black;
+  }
+  
+  .footer p{
+    color: white;
+    margin-top: 70px;
+  }
+  
+  .rodape{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+  }
