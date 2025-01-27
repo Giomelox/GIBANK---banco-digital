@@ -15,7 +15,4 @@
 
 ![image](https://github.com/user-attachments/assets/41843fbb-6a75-4faa-8446-e9251b573eeb)
 
-![image](https://github.com/user-attachments/assets/f539dc25-cb40-4fc6-ae3c-1e304b2d7e0e)
-
-
 # Data de início e término: 25/07/24 --> 31/07/24
